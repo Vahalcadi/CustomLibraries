@@ -1,0 +1,11 @@
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\bin\Debug\net6.0\CustomUnityLibrary.deps.json
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\bin\Debug\net6.0\CustomUnityLibrary.dll
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\bin\Debug\net6.0\CustomUnityLibrary.pdb
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\CustomUnityLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\CustomUnityLibrary.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\CustomUnityLibrary.AssemblyInfo.cs
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\CustomUnityLibrary.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\CustomUnityLibrary.dll
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\refint\CustomUnityLibrary.dll
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\CustomUnityLibrary.pdb
+C:\Users\david\source\repos\CustomLibraries\CustomUnityLibrary\obj\Debug\net6.0\ref\CustomUnityLibrary.dll
