@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace CustomUnityLibrary
+﻿namespace CustomUnityLibrary
 {
     public class ObjectPool<T>
     {
@@ -70,7 +68,7 @@ namespace CustomUnityLibrary
             }
             catch
             {
-                Debug.Fail("Object to recycle was not found!");
+
             }
         }
     }
