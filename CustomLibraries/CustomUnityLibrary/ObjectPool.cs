@@ -5,15 +5,18 @@
         private Stack<T> availableObjs;
         private HashSet<T> usedObjs;
 
-        private int count;
-        public int Count { get => count; }
+        private int totalObjsCount;
+        private int usedObjsCount;
+
+        public int TotalObjsCount { get => totalObjsCount; }
+        public int UsedObjsCount { get => usedObjsCount; }
 
         public ObjectPool()
         {
             availableObjs = new Stack<T>();
             usedObjs = new HashSet<T>();
 
-            count = 0;
+            totalObjsCount = 0;
         }
 
         public ObjectPool(T[] args)
@@ -21,24 +24,24 @@
             availableObjs = new Stack<T>();
             usedObjs = new HashSet<T>();
 
-            count = 0;
+            totalObjsCount = 0;
             foreach (T obj in args)
             {
                 availableObjs.Push(obj);
-                count++;
+                totalObjsCount++;
             }
         }
 
         public void Add(T obj)
         {
             availableObjs.Push(obj);
-            count++;
+            totalObjsCount++;
         }
 
         public void Remove()
         {
             availableObjs.Pop();
-            count--;
+            totalObjsCount--;
         }
 
         public T UseObject()
@@ -48,7 +51,7 @@
             {
                 T obj = availableObjs.Pop();
                 usedObjs.Add(obj);
-
+                usedObjsCount = usedObjs.Count;
                 return obj;
             }
             catch
@@ -65,6 +68,7 @@
                 usedObjs.TryGetValue(obj, out temp);
                 availableObjs.Push(temp);
                 usedObjs.Remove(obj);
+                usedObjsCount = usedObjs.Count;
             }
             catch
             {
