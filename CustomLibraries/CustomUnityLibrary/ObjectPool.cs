@@ -17,6 +17,7 @@
             usedObjs = new HashSet<T>();
 
             totalObjsCount = 0;
+            usedObjsCount = 0;
         }
 
         public ObjectPool(T[] args)
